@@ -1,38 +1,50 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebase</title>
-</head>
-<body>
-    <h1>Getting started with firebase</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Firebase</title>
+    </head>
+    <body>
+        <h1>Getting started with firebase</h1>
 
-    <h2>Firebase Firestore</h2>
+        <h2>Firebase Firestore</h2>
 
-    <form class="add">
-        <label for="title">Title:</label>
-        <input type="text" name="title" required>
+        <form class="add">
+            <label for="title">Title:</label>
+            <input type="text" name="title" required>
 
-        <label for="author">Author:</label>
-        <input type="text" name="author" required>
+            <label for="author">Author:</label>
+            <input type="text" name="author" required>
 
-        <button>Add a new book</button>
-    </form>
+            <button>Add a new book</button>
+        </form>
 
-    <form class="delete">
-        <label for="id">Document id:</label>
-        <input type="text" name="id" required>
+        <form class="delete">
+            <label for="id">Document id:</label>
+            <input type="text" name="id" required>
 
-        <button>Delete book</button>
-    </form>
+            <button>Delete book</button>
+        </form>
 
-    <form class="update">
-        <label for="id">Document id:</label>
-        <input type="text" name="id" required>
+        <form class="update">
+            <label for="id">Document id:</label>
+            <input type="text" name="id" required>
 
-        <button>Update book</button>
-    </form>
+            <button>Update book</button>
+        </form>
 
-    <script src="bundle.js"></script>
-</body>
+        <h2>Firebase Auth</h2>
+
+        <form class="signup">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+
+            <button>SignUp</button>
+        </form>
+
+        <script src="bundle.js"></script>
+    </body>
 </html>
